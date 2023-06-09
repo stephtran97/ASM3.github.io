@@ -40,7 +40,7 @@ li {
   list-style-type: none;
 }
 
-.grid-column > section {
+.container > section {
   background-color: #f7f7f7;
   margin: 0.5rem;
   padding: 0.5rem;
@@ -83,4 +83,12 @@ body {
 }
 #timeline .line-content {
   border-bottom: 1px var(--bs-blue) dashed;
+}
+#scopes {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+#timeline {
+  grid-column: 3;
+  grid-row: 1/3;
 }
