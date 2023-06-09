@@ -104,11 +104,11 @@ body {
 
 /*****                        JOB-INFO                ******/
 
-#job-info .container .grid-column {
+#job-info .container {
   /* Chia Job info thanh 3 cot */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  column-gap: 1rem;
 }
 
 /* SECTION - HEADER */
