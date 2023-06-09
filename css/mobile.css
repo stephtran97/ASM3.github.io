@@ -1,0 +1,42 @@
+/***** Mobile screen style *****/
+
+/* Banner */
+
+/* Nav bar */
+.nav-bar-user-img {
+  display: none;
+}
+
+/* About */
+#about .container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* Job info */
+
+/* Certificate */
+#certificate .container .section-content .section-content--certificate {
+  border-bottom: red 1px solid;
+}
+
+/* Projects */
+.project-company {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+/* Footer */
+
+/*****                        PROJECT CHARTER                ******/
+
+/* Goals */
+
+/* Scopes */
+
+/* Team */
+
+/* Primary */
+
+/* Timeline */

@@ -1,0 +1,86 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* General */
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a,
+a:active,
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+a:active,
+a:visited {
+  text-decoration: none;
+}
+i {
+  color: #000;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+.bg-grey-2 {
+  background: #f1f3f5;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style-type: none;
+}
+
+.grid-column > section {
+  background-color: #f7f7f7;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.section-header {
+  border-bottom: 1px gray solid;
+}
+body {
+  background-color: blue;
+}
+/*****                        PROJECT CHARTER                ******/
+
+.section-header h3,
+.line-title {
+  font-weight: 700;
+}
+/* Goals */
+#goals .section-line {
+  border-bottom: 1px grey solid;
+}
+/* Scopes */
+
+/* Team */
+
+/* Primary */
+
+/* Timeline */
+.ordinal-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1rem;
+  margin-right: 1rem;
+  width: 40px;
+  height: 40px;
+  background-color: #d698d0;
+  border-radius: 50%;
+  border: 2px #000 solid;
+}
+#timeline .line-content {
+  border-bottom: 1px var(--bs-blue) dashed;
+}

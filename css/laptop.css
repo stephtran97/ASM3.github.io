@@ -1,0 +1,253 @@
+body {
+  font-size: 16px;
+  width: 90%vw;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Change Bootstrap media query */
+@media (min-width: 768px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+/*****                        BANNER                ******/
+
+/*****                        NAV BAR                ******/
+
+#nav-bar .container {
+  background-color: #f7f7f7;
+  /* Bo tri Nav bar tab */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 150px repeat(2, 1fr);
+  justify-content: center;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+
+  color: #000;
+  position: relative;
+}
+.nav-bar-item {
+  /* Can giua tung item Nav bar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 16px;
+  background-color: #fff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.user-img {
+  /* Can chinh IMG avatar ca nhan */
+  position: absolute;
+  width: 150px;
+  top: 50%;
+  transform: translate(0, -50%);
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: 0 5px 5px rgba(10, 10, 10, 0.1);
+
+  background-color: #b5bdc5;
+}
+
+/*****                        ABOUT                ******/
+#about .container {
+  /* Chia phan about thanh 2 cot */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 0;
+}
+/* Chinh space trong About */
+#about .container h1 {
+  margin-bottom: 32px;
+}
+#target {
+  padding: 80px 48px 48px;
+}
+
+#personal-info {
+  padding: 80px 48px 48px;
+}
+#target p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #495057;
+}
+#personal-info li {
+  font-size: 14px;
+  line-height: 1.6;
+  list-style: none;
+  color: #495057;
+}
+#personal-info li span {
+  color: #495057;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 14px;
+}
+.social-links {
+  margin-top: 24px;
+}
+
+.social-link:link,
+.social-link:visited,
+.social-link:active,
+.social-link {
+  text-decoration: none;
+}
+
+/*****                        JOB-INFO                ******/
+
+#job-info .container .grid-column {
+  /* Chia Job info thanh 3 cot */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+/* SECTION - HEADER */
+#job-info .section-header {
+  /* Format Header cua tung muc */
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-content: center;
+  padding: 24px 24px 16px 24px;
+  margin-top: 32px;
+}
+.section-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-icon i {
+  color: #868e96;
+  transform: scale(2.5);
+}
+.section-title {
+  font-weight: bold;
+}
+
+/* SECTION - CONTENT */
+/* Format content cua tung muc */
+.section-content {
+  line-height: 1.6;
+  padding: 0.5rem;
+}
+
+/* FAVORITE */
+#favorite .section-content {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.favorite {
+  /* Can chinh icon trong favorite */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.favorite-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+  border: 1px solid #339af0;
+  border-radius: 50px;
+}
+
+#favorite .section-content {
+  justify-content: flex-start;
+}
+
+/*****                        CERTIFICATE                ******/
+#certificate .section-content {
+  /* Chia certificate thanh 2 cot  */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  padding: 32px 0px;
+  margin-bottom: 0px;
+}
+#certificate
+  .container
+  .section-content
+  .section-content--certificate:nth-child(1) {
+  border-bottom: 1px solid #d6c08d;
+}
+#certificate
+  .container
+  .section-content
+  .section-content--certificate:nth-child(2) {
+  border-left: 1px solid #d6c08d;
+  border-bottom: 1px solid #d6c08d;
+}
+/* Box chua noi dung certificate */
+.section-content--certificate {
+  display: flex;
+  align-items: center;
+}
+/* Format border cac box */
+
+/* Can chinh format */
+.section-content--certificate img {
+  width: 150px;
+}
+.cert-description {
+  margin-left: 24px;
+}
+.cert-title {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/*****                        PROJECT                ******/
+#project .container {
+  padding-bottom: 0;
+}
+#project .section-content {
+  padding: 0px;
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+/* Chia Project thanh 3 cot */
+#project .section-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+/*****                        FOOTER                ******/
+
+/*****                        PROJECT CHARTER                ******/
+.grid-3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: stretch;
+}
+.section-line i {
+  display: inline-block;
+  transform: scale(0.75);
+}
+.section-content .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* Goals */
+
+/* Scopes */
+
+/* Team */
+
+/* Primary */
+
+/* Timeline */
