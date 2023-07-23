@@ -27,7 +27,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-content: space-around;
-  height: 1000px;
+  height: 1300px;
 }
 #job-info .container .section {
   width: 48%;
@@ -80,7 +80,7 @@
 /* Projects */
 #project .container .section-content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 1rem;
 }
 .project-company {
@@ -91,7 +91,9 @@
 .project-company span:last-child {
   grid-column: 2/3;
 }
-
+.project-year {
+  width: 60px;
+}
 /*****                        PROJECT CHARTER                ******/
 
 /* Goals */
